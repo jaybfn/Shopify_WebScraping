@@ -5,6 +5,7 @@ Web scraping (sometimes called web data extraction or data scraping) is a techni
 **This code is only used for shopify based websites
 
 ![alt picture](https://github.com/jaybfn/Shopify_WebScraping/blob/main/web_scrapping.jpg)
+image credit https://www.loginworks.com/blogs/web-scraping-breakthrough-data-harvesting/
 
 ### Scraping the web is a multi-step process:
 
