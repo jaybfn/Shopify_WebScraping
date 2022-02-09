@@ -14,8 +14,8 @@
 6. To extract and save data, we use Python libraries like Json and Beautiful Soup and database libraries.
 
 ### Tech requirements:
-requests
-json
-dataset
-logging
-python 3.9 
+1. requests
+2. json
+3. dataset
+4. logging
+5. python 3.9 
