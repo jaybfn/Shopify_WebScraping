@@ -10,6 +10,8 @@ import requests
 import json
 import dataset
 import logging
+from sqlalchemy import create_engine
+import psycopg2
 
 #Building a class fro scrapping data from website
 class Web_Scrapper():
@@ -72,7 +74,7 @@ def main():
     Decathlon = Web_Scrapper('https://www.decathlon.com/')
     all_entries = []
     logging.info('Starting to scrape ....')
-    for page in range(1,60):
+    for page in range(1,3):
         data = Decathlon.download_json_page(page)
         print('Scrapping page:',page)
         try:
@@ -84,6 +86,7 @@ def main():
     return all_entries
 
 if __name__ == '__main__':
+   
     database_table = dataset.connect('sqlite:///decathlon.db')                 # connecting to sqlite server and saving the data
     table = database_table.create_table('Decathlon',primary_id = 'subid' )     # creating a table and saving the data
     products = main()   	                                                   # calling the function main() and initializing to a variable
