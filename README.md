@@ -9,4 +9,4 @@
 3. Parse the HTML content in step two.
 4. To generate a layered structure of HTML data, you'll need a parser.
 5. Extract data from HTML
-6. To extract and save data, we use Python libraries like Json and Beautiful Soup.
+6. To extract and save data, we use Python libraries like Json and Beautiful Soup and database libraries.
