@@ -71,7 +71,7 @@ class Web_Scrapper():
 # scrapped and stores into a SQllite database.
 def main():
     logging.getLogger().setLevel(logging.INFO)
-    Decathlon = Web_Scrapper('https://www.decathlon.com/')
+    Decathlon = Web_Scrapper('https://www.______.com/')
     all_entries = []
     logging.info('Starting to scrape ....')
     for page in range(1,3):
